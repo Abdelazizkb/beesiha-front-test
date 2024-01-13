@@ -26,6 +26,8 @@
 }
 
 body {
+  width: 100vw;
+  overflow: hidden;
   font-family: "Metropolis, sans-serif";
   background: white;
 }

@@ -8,7 +8,7 @@ const Home: React.FC = () => {
 
   return (
     <main className={styles.home}>
-      <h1>hi!</h1>
+      <h1>Welcome!</h1>
       <Button color="primary" size="medium" onClick={reportModal.open}>
         Open popup
       </Button>
