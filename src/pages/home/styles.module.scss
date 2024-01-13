@@ -4,8 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    border-bottom: 2px solid var(--color-neutral-100);
     > div {
       display: flex;
       align-items: center;
@@ -34,7 +32,12 @@
       }
     }
   }
-
+  .divider {
+    margin: 0 auto;
+    width: 85%;
+    height: 2px;
+    background-color: var(--color-neutral-100);
+  }
   .reportContent {
     .reportStatus {
       display: flex;

@@ -21,6 +21,7 @@ const VisitReportModal: React.FC<Omit<IPopup, "title">> = ({ ...props }) => {
             Historique
           </Button>
         </div>
+        <div className={styles.divider} />
         <div className={styles.reportContent}>
           <div className={styles.reportStatus}>
             <span>Signé</span>
@@ -32,13 +33,17 @@ const VisitReportModal: React.FC<Omit<IPopup, "title">> = ({ ...props }) => {
               Enregistrer
             </Button>
             <div>
-              <Button color="primary" variant="link" startIcon={<BackIcon />}>
+              <Button
+                color="primary"
+                variant="link"
+                startIcon={<BackIcon style={{ paddingTop: 2 }} />}
+              >
                 Visite précédente
               </Button>
               <Button
                 color="primary"
                 variant="link"
-                endIcon={<NextIcon />}
+                endIcon={<NextIcon style={{ paddingTop: 3 }} />}
                 disabled
               >
                 Visite suivante

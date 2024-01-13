@@ -49,6 +49,7 @@ const VisitReportForm = () => {
           />
         </Row>
       </div>
+      {/* In real case this will be components */}
       <Row gap="8px">
         <span className={styles.inputRadio}>
           <input type="radio" id="test1" name="radio-group" checked />

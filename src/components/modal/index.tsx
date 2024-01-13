@@ -10,6 +10,10 @@ export interface IPopup {
   isOpen: boolean;
 }
 
+// difference between components and atoms components can have external imports from atoms
+// model can have IconButton component in close button
+// I was going to add IconButton @atom that s why I put it as component
+
 const Modal: React.FC<PropsWithChildren<IPopup>> = ({
   title,
   children,
