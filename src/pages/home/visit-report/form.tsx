@@ -27,7 +27,7 @@ const VisitReportForm = () => {
       </div>
       <div>
         <div className={styles.sectionTitle}>
-          <ResponsibleIcon />
+          <ResponsibleIcon style={{ paddingRight: 4 }} />
           <span>Responsable</span>
         </div>
         <Row gap="8px">
