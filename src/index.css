@@ -1,20 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Metropolis:wght@300;400;500;600;700&display=swap");
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
   --color-primary: #855cfb;
   --color-secondary: #00d8a0;
 
   --color-neutral-600: #2f3136;
+  --color-neutral-500: #444;
+  --color-neutral-300: #d3d3d7;
   --color-neutral-100: #f4f6f9;
+  --color-neutral-0: #fff;
+
+  --elevation-1: 5px 5px 10px 10px rgba(133, 92, 251, 0.12);
+
+  --font-headline-extra_heavy: 700 25px/32px "Metropolis", sans-serif;
+  --font-subheader: normal 16px/24px "Metropolis", sans-serif;
+  --font-subheader-heavy: 500 16px/24px "Metropolis", sans-serif;
+  --font-body: normal 14px "Metropolis", sans-serif;
+  --font-body-heavy: bold 14px "Metropolis", sans-serif;
+  --font-body-extra_heavy: 700 14px "Metropolis", sans-serif;
+  --font-caption: normal 12px "Metropolis", sans-serif;
+  --font-caption-heavy: 500 12px "Metropolis", sans-serif;
+  --font-tiny: normal 10px "Metropolis", sans-serif;
+  --font-tiny-heavy: 500 10px "Metropolis", sans-serif;
+  --font-tiny-extra_heavy: 700 10px "Metropolis", sans-serif;
 }
 
 body {
+  font-family: "Metropolis, sans-serif";
   background: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c5c5c5;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
